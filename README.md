@@ -1,17 +1,17 @@
 newsbeuter
 ==========
-Andreas Krennmair <ak@newsbeuter.org>
+http://www.newsbeuter.org/
 
 Introduction
 ------------
-Newsbeuter is an RSS feed reader for the text console. It is designed to run
+Newsbeuter is a RSS feed reader for the text console. It is designed to run
 Unix-like operating systems such as Linux. NetBSD is currently not supported,
 due to technical limitations.
 
 Downloading
 -----------
 You can download the latest version of newsbeuter from the following website:
-http://www.newsbeuter.org/
+http://www.newsbeuter.org/download.html
 
 Alternatively, you can check out the latest version from the newsbeuter
 Git repository (hosted on GitHub):
@@ -39,6 +39,13 @@ Compiling and installing newsbeuter is as simple as:
 
 	make
 	make install
+
+Usage
+-----
+Before starting newsbeuter you have to edit `$HOME/.newsbeuter/urls`.
+Add feeds urls you want to check with newsbeuter, one by line.
+For further information check the man page or visit
+http://www.newsbeuter.org/doc/newsbeuter.html
 
 Contact
 -------
